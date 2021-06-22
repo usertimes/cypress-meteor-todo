@@ -1,7 +1,18 @@
-# cypress-meteor-todo
+# Testing a Meteor app with Cypress
 
-A simple React based Meteor app tested with Cypress.
-You can follow the guide [here](www.example.com).
+End-to-end testing with Cypress against a Meteor + react demo app.
+
+This repo contains a Meteor todo app from the official [React & Meteor tutorial](https://react-tutorial.meteor.com/).
+We added end-to-end tests with [Cypress](https://www.cypress.io/). (update after publish)
+
+You can read about how Cypress was set up in the [corresponding blog article](#) or dive through the code.
+
+## Features
+
+- `npm` scripts to run end-to-end tests with Cypress (see `package.json`)
+- Independent test environment
+- Code coverage (client + server)
+- Custom commands
 
 ## Running demo app
 
