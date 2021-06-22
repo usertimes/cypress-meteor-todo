@@ -1,0 +1,19 @@
+{
+  "fixturesFolder": "tests/cypress/fixtures",
+  "integrationFolder": "tests/cypress/integration/tests",
+  "pluginsFile": "tests/cypress/plugins/index.js",
+  "screenshotsFolder": "tests/cypress/screenshots",
+  "supportFile": "tests/cypress/support/index.js",
+  "videosFolder": "tests/cypress/videos",
+  "video": false,
+  "baseUrl": "http://localhost:4000",
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "env": {
+    "baseUrl": "http://localhost:4000",
+    "codeCoverage": { "url": "http://localhost:4000/__coverage__" }
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  }
+}

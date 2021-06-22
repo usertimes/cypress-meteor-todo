@@ -1,0 +1,5 @@
+node_modules/
+yarn.lock
+.meteor
+.nyc_output
+tests/cypress/coverage/**
