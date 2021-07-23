@@ -25,7 +25,7 @@ git clone git@github.com:usertimes/cypress-meteor-todo.git
 Install dependencies
 
 ```shell
-cd /cypress-meteor-todo
+cd cypress-meteor-todo
 ```
 
 ```shell
